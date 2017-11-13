@@ -23,38 +23,56 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 }
+.boxdos{
+	width: 250px;
+	height: 610px;
+	display: flex;
+	background-color: blue;
+}
+.boxtres{
+	width: 250px;
+	height: 610px;
+	display: flex;
+	background-color: yellow;
+}
 .b{
 	background-color: blue;
-	height: 33px;
-	width: 100px;
+	height: 0px;
+	width: 0px;
 	margin-bottom: 10px;
+	display: hidden;
 }
 .box{
-	background-color: orange;
-	height: 33px;
-	width: 100px;
+	height: 0px;
+	width: 0px;
 	margin-bottom: 10px;
-	flex-wrap: wrap;
+	display: hidden;
 }
 .m{
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
 	background-color: red;
-	margin-right: 30px;
-	flex-wrap: wrap;
+	margin:10px;
+	display: block;
+}
+.b32{
+	width: 500px;
+	height: 610px;
 	display: flex;
+	background-color: black;
 }
 .b3{
-	height: 40px;
-	width: 100px;
+	height:0vh;
+	width: 0vw;
 	background-color: black;
 	margin: 20px;
+	display: hidden;
 }
 .invisible{
-	height: 10px;
-	width: 100px;
+	height: 150px;
+	width: 300px;
 	flex-wrap: wrap;
-	margin: 5px;
+	margin: 25px;
 }
 .center-vertical{
 	display: flex;
@@ -89,8 +107,18 @@ body{
 	height: 100vh;
 	width: 40vw;
 	background-color: purple;
-	display: block;
+	display: flex;
 	flex-wrap: wrap;
+}
+.boxdos{
+	width:0px;
+	height: 0px;
+	display: hidden;
+}
+.boxtres{
+	width: 0px;
+	height: 0px;
+	display: hidden;
 }
 .b{
 	background-color: blue;
@@ -109,6 +137,11 @@ body{
 	width: 40px;
 	background-color: red;
 	margin-right: 7px;
+}
+.b32{
+	width: 0px;
+	height: 0px;
+	display: hidden;
 }
 .b3{
 	height: 40%;
