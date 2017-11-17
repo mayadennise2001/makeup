@@ -121,18 +121,60 @@ body{
 	display: hidden;
 }
 .b{
-	background-color: blue;
+	background-color: white;
 	height: 33%;
 	width: 100%;
 	margin-bottom: 10px;
 }
 .box{
-	background-color: orange;
+	background-color: white;
 	height: 33%;
 	width: 100%;
 	margin-bottom: 10px;
 }
 .m{
+	height: 44px;
+	width: 40px;
+	background-color: #FFD4AC;
+	margin-right: 7px;
+}
+.m2{
+	height: 44px;
+	width: 40px;
+	background-color: #D6AC83;
+	margin-right: 7px;
+}
+.m3{
+	height: 44px;
+	width: 40px;
+	background-color: #A0522D;
+	margin-right: 7px;
+}
+.m4{
+	height: 44px;
+	width: 40px;
+	background-color: #8B4513;
+	margin-right: 7px;
+}
+.m5{
+	height: 44px;
+	width: 40px;
+	background-color: red;
+	margin-right: 7px;
+}
+.m6{
+	height: 44px;
+	width: 40px;
+	background-color: red;
+	margin-right: 7px;
+}
+.m7{
+	height: 44px;
+	width: 40px;
+	background-color: red;
+	margin-right: 7px;
+}
+.m8{
 	height: 44px;
 	width: 40px;
 	background-color: red;
